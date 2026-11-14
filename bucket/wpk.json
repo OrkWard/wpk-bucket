@@ -1,9 +1,9 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Portable package manager for Windows, reading Scoop buckets",
     "homepage": "https://github.com/OrkWard/winpkgs",
     "license": "BSD-3-Clause",
-    "url": "https://s3.orkward.dev/scoop-bucket/wpk/0.1.1/wpk.zip",
-    "hash": "bdc60b983e5294359793e523b4418016c24f62e6a0ea2a02795f93807b501764",
+    "url": "https://s3.orkward.dev/scoop-bucket/wpk/0.1.2/wpk.zip",
+    "hash": "6f0ffa35fb0f0b5857759dda4521316e8c7ad8d164ef260b294b49747f5fa8a5",
     "bin": "wpk.exe"
 }
