@@ -1,0 +1,41 @@
+{
+    "version": "26.06",
+    "description": "A multi-format file archiver with high compression ratios.",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.msi",
+            "hash": "6dc822569e777d9a3ecd5ffcbc22b55600af87e6c5d9810a64e8566cf5a4af9f",
+            "extract_dir": "Files\\7-Zip"
+        }
+    },
+    "bin": [
+        "7z.exe",
+        "7zG.exe",
+        "7zFM.exe"
+    ],
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip File Manager"
+        ]
+    ],
+    "persist": [
+        "Codecs",
+        "Formats"
+    ],
+    "checkver": {
+        "github": "https://github.com/ip7z/7zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-x64.msi"
+            }
+        }
+    }
+}
