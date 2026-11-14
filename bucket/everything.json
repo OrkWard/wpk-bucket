@@ -34,5 +34,9 @@
         "Filters.csv",
         "Run History.csv",
         "Search History.csv"
+    ],
+    "notes": [
+        "If you use the Everything service, register it again after each upgrade, from an elevated shell:",
+        "\"$dir\\Everything.exe\" -install-service"
     ]
 }
