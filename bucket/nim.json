@@ -1,0 +1,38 @@
+{
+    "version": "2.2.12",
+    "description": "A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula.",
+    "homepage": "https://nim-lang.org/",
+    "license": "MIT",
+    "suggest": {
+        "MinGW": "mingw-winlibs"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://nim-lang.org/download/nim-2.2.12_x64.zip",
+            "hash": "dafe9c81f8118fac2e07ee24f3649448a590d8b0f3b55d1a97c66f99035cc8e6"
+        }
+    },
+    "extract_dir": "nim-2.2.12",
+    "bin": [
+        "bin\\nim.exe",
+        "bin\\nimble.exe",
+        "bin\\nimsuggest.exe",
+        "bin\\nimpretty.exe"
+    ],
+    "persist": "config",
+    "checkver": {
+        "url": "https://nim-lang.org/install_windows.html",
+        "regex": "nim-([\\d.]+)_x64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nim-lang.org/download/nim-$version_x64.zip"
+            }
+        },
+        "extract_dir": "nim-$version",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

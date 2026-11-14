@@ -1,0 +1,26 @@
+{
+    "version": "20261005-082801-20261005-054844-37254829",
+    "description": "GPU-accelerated terminal emulator (nightly), local build of wezterm main @ 37254829 with OSC 133 over mux, left/right ALT/CTRL key bindings, `wezterm cli kill-server` and a separate semantic zone per OSC 133 prompt",
+    "homepage": "https://wezterm.org/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://s3.orkward.dev/scoop-bucket/wezterm-nightly/20261005-082801_20261005-054844-37254829/WezTerm-windows-20261005-054844-37254829.zip",
+            "hash": "7368e2d6ca0f009f4371ef8a5d7472b5a75cc8e2268ef081909054bb267719d2",
+            "extract_dir": "WezTerm-windows-20261005-054844-37254829"
+        }
+    },
+    "bin": [
+        "wezterm.exe",
+        "wezterm-gui.exe"
+    ],
+    "shortcuts": [
+        [
+            "wezterm-gui.exe",
+            "WezTerm Nightly"
+        ]
+    ],
+    "shortcut_aumid": {
+        "WezTerm Nightly": "org.wezfurlong.wezterm"
+    }
+}

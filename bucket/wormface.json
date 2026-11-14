@@ -1,0 +1,9 @@
+{
+    "version": "2.1.1",
+    "description": "wormface scraper CLI (twitter, pixiv, html), built from github.com/OrkWard/wormface @ v2.1.1",
+    "homepage": "https://github.com/OrkWard/wormface",
+    "license": "Unknown",
+    "url": "https://s3.orkward.dev/scoop-bucket/wormface/2.1.1/wormface-cli.exe",
+    "hash": "b623ddb7fa58129ea5ce04b1f9e88abab7e882c9d1b5591b9e68ac96fe83829a",
+    "bin": "wormface-cli.exe"
+}

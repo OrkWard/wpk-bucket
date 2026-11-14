@@ -1,0 +1,9 @@
+{
+    "version": "2025-11-06T16-25-29Z",
+    "description": "MinIO Client (mc), built from archived github.com/minio/mc @ 77f82e18",
+    "homepage": "https://github.com/minio/mc",
+    "license": "AGPL-3.0-or-later",
+    "url": "https://s3.orkward.dev/scoop-bucket/minio-client/2025-11-06T16-25-29Z/mc.exe",
+    "hash": "95d15f23a8afc0b204d3d819011ad644dd393f956cd1655f91e62127402cd49f",
+    "bin": "mc.exe"
+}

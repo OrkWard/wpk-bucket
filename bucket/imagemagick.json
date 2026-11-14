@@ -1,0 +1,25 @@
+{
+    "version": "7.1.2-32",
+    "description": "Create, edit, compose, and convert 200+ bitmap image formats. Portable build (no Inno Setup installer).",
+    "homepage": "https://imagemagick.org/",
+    "license": "ImageMagick",
+    "notes": "PDF support needs Ghostscript (main/ghostscript).",
+    "url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-32/ImageMagick-7.1.2-32-portable-Q16-HDRI-x64.7z",
+    "hash": "bac9155acac3147c460082282e01646596c054c613c77e6616f7e3ad0ed38e54",
+    "bin": [
+        "magick.exe",
+        "compare.exe",
+        "composite.exe",
+        "conjure.exe",
+        "identify.exe",
+        "mogrify.exe",
+        "montage.exe",
+        "stream.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/ImageMagick/ImageMagick"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-portable-Q16-HDRI-x64.7z"
+    }
+}

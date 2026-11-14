@@ -1,0 +1,29 @@
+{
+    "version": "1.29.1",
+    "description": "The Rust toolchain installer",
+    "homepage": "https://rustup.rs",
+    "license": "MIT|Apache-2.0",
+    "url": "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-pc-windows-msvc/rustup-init.exe#/rustup.exe",
+    "hash": "6f4bef66261261fcb43131be8720bab817d403a09edec7455c371974b90bdb7e",
+    "multicall": true,
+    "bin": [
+        "rustup.exe",
+        ["rustup.exe", "cargo"],
+        ["rustup.exe", "cargo-clippy"],
+        ["rustup.exe", "cargo-fmt"],
+        ["rustup.exe", "cargo-miri"],
+        ["rustup.exe", "clippy-driver"],
+        ["rustup.exe", "rls"],
+        ["rustup.exe", "rust-analyzer"],
+        ["rustup.exe", "rust-gdb"],
+        ["rustup.exe", "rust-gdbgui"],
+        ["rustup.exe", "rust-lldb"],
+        ["rustup.exe", "rustc"],
+        ["rustup.exe", "rustdoc"],
+        ["rustup.exe", "rustfmt"]
+    ],
+    "notes": [
+        "Install a toolchain with: rustup default stable",
+        "wpk owns the rustup binary; turn off its self-update with: rustup set auto-self-update disable"
+    ]
+}

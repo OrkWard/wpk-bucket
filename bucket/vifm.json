@@ -1,0 +1,22 @@
+{
+    "version": "0.14.4",
+    "description": "Vi-like file manager. Without the Start Menu shortcut (it is a terminal app).",
+    "homepage": "https://vifm.info/",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-w64-se-0.14.4-binary.zip",
+    "hash": "sha1:9c7d526282c3fd060dd951f4e122ae6985669f95",
+    "extract_dir": "vifm-w64-se-0.14.4-binary",
+    "bin": "vifm.exe",
+    "persist": "data\\vifmrc",
+    "checkver": {
+        "github": "https://github.com/vifm/vifm"
+    },
+    "autoupdate": {
+        "url": "https://github.com/vifm/vifm/releases/download/v$version/vifm-w64-se-$version-binary.zip",
+        "extract_dir": "vifm-w64-se-$version-binary",
+        "hash": {
+            "url": "https://vifm.info/downloads.shtml",
+            "regex": "(?sm)$basename.*?$sha1"
+        }
+    }
+}
