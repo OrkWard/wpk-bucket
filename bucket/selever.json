@@ -1,9 +1,9 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "Fast .tool-versions manager with native offline shims for Node.js, Go, Zig, ZLS, npm packages and Go packages, and Java, MSVC, GCC and LLVM MinGW through selever exec",
     "homepage": "https://github.com/OrkWard/selever",
     "license": "MIT",
-    "url": "https://s3.orkward.dev/winpkgs-bucket/selever/2.3.0/selever.exe",
-    "hash": "89f60dc1e0bba21f0a1b0b67fe63996df79f2fbd9391049c050a27319fd7c9a3",
+    "url": "https://s3.orkward.dev/winpkgs-bucket/selever/2.3.1/selever.exe",
+    "hash": "79a3346a023332a1e14ccf1b58d65c8ea35340fed13bc3c0f0561a34ff426f3a",
     "bin": "selever.exe"
 }
