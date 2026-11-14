@@ -8,7 +8,6 @@
     },
     "url": "https://www.sac.sk/download/utildiag/hwi_860.zip",
     "hash": "0f7726ee30f6b040cc13aa9de5a19619545a00dd7515fc17ebea9f9f2996e83c",
-    "persist": "HWiNFO64.INI",
     "bin": [
         [
             "HWiNFO64.exe",
@@ -27,5 +26,8 @@
     },
     "autoupdate": {
         "url": "https://www.sac.sk/download/utildiag/hwi_$majorVersion$minorVersion.zip"
-    }
+    },
+    "persist_copy": [
+        "HWiNFO64.INI"
+    ]
 }

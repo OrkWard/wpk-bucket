@@ -44,5 +44,11 @@
                 }
             }
         }
-    }
+    },
+    "persist_copy": [
+        "favorites.txt",
+        "RegistryFinder.config",
+        "UndoHistory",
+        "VisitationHistory"
+    ]
 }

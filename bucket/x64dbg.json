@@ -6,14 +6,11 @@
     "url": "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2026-05-27_12-11.zip",
     "hash": "sha1:4f70bf300e79e0a88d59ab3bfe68d22daf003cea",
     "persist": [
-        "release\\x96dbg.ini",
-        "release\\x32\\x32dbg.ini",
         "release\\x32\\memdumps",
         "release\\x32\\garbage",
         "release\\x32\\db",
         "release\\x32\\plugins",
         "release\\x32\\symbols",
-        "release\\x64\\x64dbg.ini",
         "release\\x64\\memdumps",
         "release\\x64\\garbage",
         "release\\x64\\db",
@@ -65,5 +62,10 @@
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_$version.zip"
-    }
+    },
+    "persist_copy": [
+        "release\\x96dbg.ini",
+        "release\\x32\\x32dbg.ini",
+        "release\\x64\\x64dbg.ini"
+    ]
 }
