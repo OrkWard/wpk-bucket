@@ -3,7 +3,7 @@
     "description": "gx, a Go coding agent CLI on top of pi, built from git.lan:gx.git @ v0.3.10",
     "homepage": "git.lan:gx.git",
     "license": "Proprietary",
-    "url": "https://s3.orkward.dev/scoop-bucket/gx/0.3.10/gx.exe",
+    "url": "https://s3.orkward.dev/winpkgs-bucket/gx/0.3.10/gx.exe",
     "hash": "ee9a7c6e0c729db8e3e33da4370b17e535e4bd39fdd32d3fbd4d0282a71fbe83",
     "bin": "gx.exe"
 }

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://s3.orkward.dev/scoop-bucket/wezterm-nightly/20261005-082801_20261005-054844-37254829/WezTerm-windows-20261005-054844-37254829.zip",
+            "url": "https://s3.orkward.dev/winpkgs-bucket/wezterm-nightly/20261005-082801_20261005-054844-37254829/WezTerm-windows-20261005-054844-37254829.zip",
             "hash": "7368e2d6ca0f009f4371ef8a5d7472b5a75cc8e2268ef081909054bb267719d2",
             "extract_dir": "WezTerm-windows-20261005-054844-37254829"
         }
