@@ -1,9 +1,9 @@
 {
-    "version": "0.3.11",
-    "description": "gx, a Go coding agent CLI on top of pi, built from git.lan:gx.git @ v0.3.11",
+    "version": "0.3.13",
+    "description": "gx, a Go coding agent CLI on top of pi, built from git.lan:gx.git @ v0.3.13",
     "homepage": "git.lan:gx.git",
     "license": "Proprietary",
-    "url": "https://s3.orkward.dev/winpkgs-bucket/gx/0.3.11/gx.exe",
-    "hash": "8f5d4f7428fc7a80ce007f5a817c6bb21bc9300b1943b9ff0bd24428c3dcaf40",
+    "url": "https://s3.orkward.dev/winpkgs-bucket/gx/0.3.13/gx.exe",
+    "hash": "529cf758cc81439a1d56bcbe630cc266a37821f9eb4e15cb5240676e0a80e2fe",
     "bin": "gx.exe"
 }
